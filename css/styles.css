@@ -119,6 +119,19 @@ body   {
 .contact-email:focus   {
     color: #404BBF
                     }
+.contacts {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF;
+}
 /* Main Contant */ /* Hero */
 .hero,
 .footer {
@@ -262,6 +275,7 @@ body   {
     cursor: pointer;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    letter-spacing: 0.04em;
 }
 
 .item-filter__btn:hover,
