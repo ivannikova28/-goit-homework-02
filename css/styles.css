@@ -1,0 +1,237 @@
+:root {
+    /* --main-color: red;  */
+    --primary-backgraund:#fff;
+    --primary--font-family: "Roboto", sans-serif;
+}
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary--font-family);
+} */
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
+ul,
+ol 
+li {
+    list-style: none;
+} */
+
+address {
+    font-style: normal;
+}
+
+.list  {  
+    list-style: none ;
+}
+
+.link   {
+    text-decoration: none;
+}
+
+
+body   {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    /* line-height: 1.5; */
+    font-weight: 500;
+    color: #2E2F42;
+    background-color: #ffffff;
+    /* background-color:var(--primary-backgraund); */
+   
+    
+}
+    /* HEADER */
+   /*  Logo*/
+
+.logo-web {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #4D5AE5;
+}
+    
+.logo-studio    {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #2E2F42;
+
+}
+
+.menu-link {
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.link:hover,
+.link:focus   {
+    color: #404BBF;
+}
+
+
+.contact-phone-number,
+.contact-email  {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #404BBF;
+}
+
+.contact-email:hover,
+.contact-email:focus   {
+    color: #404BBF
+                    }
+/* Main Contant */ /* Hero */
+.hero,
+.footer {
+    background: #2E2F42;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.button-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+.button-btn:hover,
+.button-btn:focus::after {
+    background: #404BBF;
+}
+   
+   
+/* Section 2 */
+
+.second-section-title   {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.second-section-text {
+    line-height: 1.5;
+    font-weight: 400;
+    color: #434455;
+
+}
+
+        /* Sektion 3  What are we doing*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.11;
+    text-align: center;
+    color: #2E2F42;
+}
+
+/* < !-- Section4 Our Team--> */
+
+.section-four   {
+    background: #F4F4FD
+}
+
+.name-working   {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.proffesion {
+    font-weight: 400;
+    color: #434455;
+
+}
+
+    /* FOOTER */
+
+.logo-studio-footer   {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+}
+
+.text-footer {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+
+
+
+
+
+
+/* =============PORTFOLIO============= */
+.filter__list {
+    list-style: none;
+}
+
+
+
+.item-filter__btn   {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D5AE5;
+    background: #F4F4FD;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.item-filter__btn:hover,
+.item-filter__btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.works-list {
+    list-style: none;
+}
+
+.item-works__title  {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.item-works__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+
+/* =============PORTFOLIO============= */
