@@ -90,7 +90,7 @@ body   {
 .menu-link,
 .link-menu {
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--primary-second-text);
 }
 
@@ -145,7 +145,7 @@ body   {
 } 
 
 .button-btn:hover,
-.button-btn:focus::after {
+.button-btn:focus {
     background:#404BBF;
 }
    
@@ -279,6 +279,7 @@ body   {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .item-works__text {
@@ -286,6 +287,7 @@ body   {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 
