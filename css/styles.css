@@ -6,6 +6,7 @@
     --primary-text: #4d5ae5;
     --primary-second-text: #2e2f42;
     --primary-third-text: #f4f4fd;
+    --primary-four-text: #ffffff;
 }
 
 
@@ -78,14 +79,21 @@ body   {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-second-text);
+    color: var(--primary-text);
     
 }
 
-.menu-link {
+.logo-header {
+   color: var(--primary-second-text) 
+}
+
+.menu-link,
+.link-menu {
     line-height: 1.5;
+    letter-spacing: 0.02;
     color: var(--primary-second-text);
 }
+
 
 .link-menu:hover,
 .link-menu:focus   {
@@ -130,7 +138,7 @@ body   {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
     letter-spacing: 0.04em;
@@ -223,7 +231,7 @@ body   {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-third-text)
+    color: var(--primary-four-text)
 }
 .text-footer {
     font-weight: 400;
@@ -251,7 +259,7 @@ body   {
     line-height: 24px;
     color: var(--primary-text);
     background-color: var(--primary-third-text);
-
+    cursor: pointer;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
